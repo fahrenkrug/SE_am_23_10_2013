@@ -5,8 +5,14 @@ public class Calculator{
 		String operation = scanner.next();
 		int a = scanner.nextInt();
 		int b = scaner.nextInt();
+		
 		if (operation.equals("+")){
 			int result = a+b;
 			System.out.println(a + "+" + b + "=" + result);
+		}
+		else if (operation.equals("-")){
+			int result = a - b;
+			System.out.println(a + "-" + b + "=" + result);
+		}
 	}
 }
